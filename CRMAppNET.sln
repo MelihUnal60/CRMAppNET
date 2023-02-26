@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMAppNET.Domain", "RestaurantAppNET.Domain\CRMAppNET.Domain.csproj", "{DF68E7FE-E61C-4FC5-86A0-5E87C8F3F30C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMAppNET.Infrastructure", "RestaurantAppNET.Infrastructure\CRMAppNET.Infrastructure.csproj", "{8A38C30E-110C-4587-AA14-6F3330E43096}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMAppNET.Infrastructure.EFCore", "RestaurantAppNET.Infrastructure.EFCore\CRMAppNET.Infrastructure.EFCore.csproj", "{EF978927-C2FF-480B-9909-62A05C0FED4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMAppNET.Infrastructure.IOToTXT", "RestaurantAppNET.IOToTXT\CRMAppNET.Infrastructure.IOToTXT.csproj", "{44B92F75-7438-4667-80F4-4FF021480F0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMAppNET.App", "RestaurantAppNET.App\CRMAppNET.App.csproj", "{BC75FDEF-0BD2-4760-BD30-EAF8FFC78698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMAppNET.Presentation", "CRMAppNET.Presentation\CRMAppNET.Presentation.csproj", "{5F14D775-510D-4541-B39E-35B06BFC2595}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF68E7FE-E61C-4FC5-86A0-5E87C8F3F30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF68E7FE-E61C-4FC5-86A0-5E87C8F3F30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF68E7FE-E61C-4FC5-86A0-5E87C8F3F30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF68E7FE-E61C-4FC5-86A0-5E87C8F3F30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A38C30E-110C-4587-AA14-6F3330E43096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A38C30E-110C-4587-AA14-6F3330E43096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A38C30E-110C-4587-AA14-6F3330E43096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A38C30E-110C-4587-AA14-6F3330E43096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF978927-C2FF-480B-9909-62A05C0FED4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF978927-C2FF-480B-9909-62A05C0FED4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF978927-C2FF-480B-9909-62A05C0FED4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF978927-C2FF-480B-9909-62A05C0FED4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B92F75-7438-4667-80F4-4FF021480F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B92F75-7438-4667-80F4-4FF021480F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B92F75-7438-4667-80F4-4FF021480F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B92F75-7438-4667-80F4-4FF021480F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC75FDEF-0BD2-4760-BD30-EAF8FFC78698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC75FDEF-0BD2-4760-BD30-EAF8FFC78698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC75FDEF-0BD2-4760-BD30-EAF8FFC78698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC75FDEF-0BD2-4760-BD30-EAF8FFC78698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F14D775-510D-4541-B39E-35B06BFC2595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F14D775-510D-4541-B39E-35B06BFC2595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F14D775-510D-4541-B39E-35B06BFC2595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F14D775-510D-4541-B39E-35B06BFC2595}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC28481C-BEB5-4218-AA55-A471A0330E76}
+	EndGlobalSection
+EndGlobal
